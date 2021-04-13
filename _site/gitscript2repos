@@ -1,0 +1,9 @@
+bundle exec jekyll build
+cd ~/workspace/JekyllSites/Karadaka-repo
+git add -A
+git commit -am $1
+git push origin master
+cd ~/workspace/JekyllSites/Karadaka-repo/_site
+git add -A
+git commit -am $1
+git push origin master
