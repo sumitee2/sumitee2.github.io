@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"@font-face {\n  font-family: themeFont;\n  src: url('Legacy.otf');\n}\n\n.navbar {\n\toverflow: auto;\n\theight: 44px;\n\twidth: 100%;\n}\n\n#navlink {\n\tfloat: right;\n\tmargin: 10px;\n\tcolor: rgb(200,200,200);\n}\n\n.current {\n  color: rgb(110,110,100);\n}\n\nh1 {\n\tmargin: auto;\n\tfont-family: themeFont;\n}\n\n.separator-basic {\n\theight: 1px;\n\twidth: 100%;\n\tbackground-color: rgba(210, 210, 210, 0.9);\n\tmargin-top: 16px;\n\tmargin-bottom: 16px;\n}\n\nbody {\n\talign-items: center;\n\tfont-family: themeFont;\n\tmargin: 32px;\n}\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU,GACR,WAAW,EAAE,SAAS,EACtB,GAAG,EAAE,iBAAiB;;AAGxB,AAAA,OAAO,CAAC,EACP,QAAQ,EAAE,IAAI,EACd,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,GACX;;AAED,AAAA,QAAQ,CAAC,EACR,KAAK,EAAE,KAAK,EACZ,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,OAAgB,GACvB;;AAED,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,OAAgB,GACxB;;AAED,AAAA,EAAE,CAAC,EACF,MAAM,EAAE,IAAI,EACZ,WAAW,EAAE,SAAS,GACtB;;AAED,AAAA,gBAAgB,CAAC,EAChB,MAAM,EAAE,GAAG,EACX,KAAK,EAAE,IAAI,EACX,gBAAgB,EAAE,wBAAwB,EAC1C,UAAU,EAAE,IAAI,EAChB,aAAa,EAAE,IAAI,GACnB;;AAED,AAAA,IAAI,CAAC,EACJ,WAAW,EAAE,MAAM,EACnB,WAAW,EAAE,SAAS,EACtB,MAAM,EAAE,IAAI,GACZ"
+}
