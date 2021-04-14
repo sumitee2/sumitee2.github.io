@@ -1,15 +1,21 @@
 @font-face { font-family: themeFont; src: url("Legacy.otf"); }
 
+body { font-family: themeFont; background-color: #f0f0f0; background-repeat: no-repeat; }
+
+.headerbar { height: 44px; width: 100%; margin: 0px; padding: 0px; }
+
 .navbar { overflow: auto; height: 44px; width: 100%; }
 
-#navlink { float: right; margin: 10px; color: #c8c8c8; }
+.current { color: #465046; }
 
-.current { color: #6e6e64; }
+.uncurrent { color: #c8c8c8; }
+
+#navlink { float: right; margin-top: 10px; margin-right: 10px; }
 
 h1 { margin: auto; font-family: themeFont; }
 
-.separator-basic { height: 1px; width: 100%; background-color: rgba(210, 210, 210, 0.9); margin-top: 16px; margin-bottom: 16px; }
+.separator-basic { height: 1px; width: 100%; background-color: rgba(210, 210, 210, 0.9); margin-top: 2px; margin-bottom: 2px; }
 
-body { align-items: center; font-family: themeFont; margin: 32px; }
+a { color: #465046; }
 
 /*# sourceMappingURL=styles.css.map */
