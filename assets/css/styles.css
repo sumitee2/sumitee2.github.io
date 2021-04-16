@@ -1,22 +1,36 @@
 @font-face { font-family: themeFont; src: url("Legacy.otf"); }
 
+@font-face { font-family: headerFont; src: url("Typographica.ttf"); }
+
+@font-face { font-family: postTitleFont; src: url("Cascadia.ttf"); }
+
+@font-face { font-family: postContentFont; src: url("Monoid.ttf"); }
+
 * { box-sizing: border-box; }
 
-body { font-family: themeFont; background-color: #f0f0f0; background-repeat: no-repeat; }
+html { margin: 0; padding: 0; }
 
-.headerbar { height: 44px; width: 100%; margin: 0px; padding: 0px; }
+body { margin: 0; padding: 0; font-family: postContentFont; background-color: #fae8e0; background-repeat: no-repeat; }
 
-.navbar { overflow: auto; height: 44px; width: 100%; }
+.navbar { overflow: auto; height: 44px; width: 100%; box-sizing: border-box; background-color: #EF7C8E; }
 
 .current { color: #465046; }
 
-.uncurrent { color: #c8c8c8; }
+.uncurrent { color: #f0f0f0; }
 
-#navlink { float: right; margin-top: 10px; margin-right: 10px; }
+#navlink { float: right; margin-top: 10px; margin-right: 10px; font-family: headerFont; }
 
-h1 { margin: auto; font-family: themeFont; }
+h1 { margin: auto; }
 
-.separator-basic { height: 1px; width: 100%; background-color: rgba(210, 210, 210, 0.9); margin-top: 2px; margin-bottom: 2px; }
+.postTitle { font-family: postTitleFont; }
+
+.postContent { font-family: postContentFont; }
+
+.headerbar { height: 64px; width: 100%; box-sizing: border-box; background-color: #0292B7; overflow: hidden; color: #DEE2EC; text-shadow: 1px 1px #8C756A; font-family: headerFont; }
+
+.leftspacedtitle { margin-top: 0px; margin-bottom: 10px; padding: 10px; font-family: headerFont; }
+
+.separator-basic { height: 2px; width: 100%; margin: 0px; padding: 0px; background-color: #EF7C8E; }
 
 a { color: #465046; }
 
@@ -44,6 +58,10 @@ a { color: #465046; }
 
 .col-12 { width: 100%; }
 
-[class*="col-"] { float: left; padding: 15px; border: 1px solid red; }
+[class*="col-"] { float: left; padding: 15px; overflow: hidden; }
+
+.savedextra { border: 2px solid #EF7C8E; }
+
+.row::after { content: ""; clear: both; display: table; }
 
 /*# sourceMappingURL=styles.css.map */
