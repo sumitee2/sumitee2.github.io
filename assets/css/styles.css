@@ -32,7 +32,7 @@ h1 { margin: auto; }
 
 .separator-basic { height: 2px; width: 100%; margin: 0px; padding: 0px; background-color: #63a583; }
 
-a { color: #6e93d6; }
+a { color: #2f4c58; text-decoration: none; }
 
 .col-1 { width: 8.33%; }
 
