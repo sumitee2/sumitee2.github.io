@@ -64,4 +64,6 @@ a { color: #2f4c58; text-decoration: none; }
 
 .row::after { content: ""; clear: both; display: table; }
 
+.sidebarcat { background-color: #63a583; }
+
 /*# sourceMappingURL=styles.css.map */
