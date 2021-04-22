@@ -1,10 +1,12 @@
 @font-face { font-family: themeFont; src: url("Legacy.otf"); }
 
-@font-face { font-family: headerFont; src: url("FFFFORWA.TTF"); }
+@font-face { font-family: headerFont; src: url("BACKTO1982.TTF"); }
 
 @font-face { font-family: postTitleFont; src: url("Cascadia.ttf"); }
 
 @font-face { font-family: postContentFont; src: url("ptsans/PTS55F.ttf"); }
+
+@font-face { font-family: navLinkFont; src: url("FFFFORWA.TTF"); }
 
 * { box-sizing: border-box; }
 
@@ -18,7 +20,7 @@ body { margin: 0px; padding: 0px; font-family: postTitleFont; background-color: 
 
 .uncurrent { color: #f0f0f0; }
 
-#navlink { float: right; margin-top: 10px; margin-right: 10px; font-family: headerFont; }
+#navlink { float: right; margin-top: 10px; margin-right: 10px; font-family: navLinkFont; }
 
 h1 { margin: auto; color: #DEE2EC; }
 
@@ -26,7 +28,9 @@ h1 { margin: auto; color: #DEE2EC; }
 
 .postContent { font-family: postContentFont; }
 
-.headerbar { height: 64px; width: 100%; box-sizing: border-box; overflow: hidden; color: #DEE2EC; text-shadow: 1px 1px #dc5873; font-family: headerFont; }
+.headerbar { height: 94px; width: 100%; box-sizing: border-box; overflow: hidden; color: #DEE2EC; text-shadow: 1px 1px #dc5873; font-family: headerFont; position: relative; font-size: large; }
+
+.headerverticalcenter { margin: 0; position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); }
 
 .leftspacedtitle { margin-top: 0px; margin-bottom: 10px; padding: 10px; font-family: headerFont; }
 
@@ -60,7 +64,7 @@ a { color: #a05b3c; text-decoration: none; }
 
 [class*="col-"] { float: left; padding: 15px; margin: 5px; overflow: hidden; border: 1px solid #999999; }
 
-@media only screen and (max-width: 768px) { /* For mobile phones: */ [class*="col-"] { width: 100%; } }
+@media only screen and (max-width: 768px) { /* For mobile phones: */ [class*="col-"] { width: 100%; } .headerbar { font-size: 15px; } }
 
 .savedextra { background-color: #63a583; }
 
