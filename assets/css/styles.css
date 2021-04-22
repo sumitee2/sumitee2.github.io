@@ -1,6 +1,6 @@
 @font-face { font-family: themeFont; src: url("Legacy.otf"); }
 
-@font-face { font-family: headerFont; src: url("Typographica.ttf"); }
+@font-face { font-family: headerFont; src: url("FFFFORWA.TTF"); }
 
 @font-face { font-family: postTitleFont; src: url("Cascadia.ttf"); }
 
@@ -10,9 +10,9 @@
 
 html { margin: 0px; padding: 0px; }
 
-body { margin: 0px; padding: 0px; font-family: postContentFont; background-color: #e4dbd9; background-repeat: no-repeat; }
+body { margin: 0px; padding: 0px; font-family: postContentFont; background-color: #000000; background-repeat: no-repeat; }
 
-.navbar { overflow: auto; height: 44px; width: 100%; box-sizing: border-box; background-color: #63a583; box-shadow: 0px 0px 8px 1px #222222; }
+.navbar { overflow: auto; height: 44px; width: 100%; box-sizing: border-box; box-shadow: 0px 0px 8px 1px #222222; background-color: #dc5873; }
 
 .current { color: #465046; }
 
@@ -20,19 +20,19 @@ body { margin: 0px; padding: 0px; font-family: postContentFont; background-color
 
 #navlink { float: right; margin-top: 10px; margin-right: 10px; font-family: headerFont; }
 
-h1 { margin: auto; }
+h1 { margin: auto; color: #DEE2EC; }
 
 .postTitle { font-family: postTitleFont; }
 
 .postContent { font-family: postContentFont; }
 
-.headerbar { height: 64px; width: 100%; box-sizing: border-box; background-color: #2f4c58; overflow: hidden; color: #DEE2EC; text-shadow: 1px 1px #8C756A; font-family: headerFont; }
+.headerbar { height: 64px; width: 100%; box-sizing: border-box; overflow: hidden; color: #DEE2EC; text-shadow: 1px 1px #dc5873; font-family: headerFont; }
 
 .leftspacedtitle { margin-top: 0px; margin-bottom: 10px; padding: 10px; font-family: headerFont; }
 
-.separator-basic { height: 2px; width: 100%; margin: 0px; padding: 0px; background-color: #63a583; }
+.separator-basic { height: 2px; width: 100%; margin: 0px; padding: 0px; background-color: #dc5873; }
 
-a { color: #2f4c58; text-decoration: none; }
+a { color: #b4babd; text-decoration: none; }
 
 .col-1 { width: 8.33%; }
 
@@ -58,9 +58,9 @@ a { color: #2f4c58; text-decoration: none; }
 
 .col-12 { width: 100%; }
 
-[class*="col-"] { float: left; padding: 15px; overflow: hidden; }
+[class*="col-"] { float: left; padding: 15px; margin: 5px; overflow: hidden; border: 1px solid #dc5873; }
 
-.savedextra { border: 2px solid #EF7C8E; background-color: #63a583; }
+.savedextra { background-color: #63a583; }
 
 .row::after { content: ""; clear: both; display: table; }
 
