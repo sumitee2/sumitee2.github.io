@@ -10,9 +10,9 @@
 
 html { margin: 0px; padding: 0px; }
 
-body { margin: 0px; padding: 0px; font-family: postContentFont; background-color: #000000; background-repeat: no-repeat; }
+body { margin: 0px; padding: 0px; font-family: postTitleFont; background-color: #000000; background-repeat: no-repeat; color: #dedede; }
 
-.navbar { overflow: auto; height: 44px; width: 100%; box-sizing: border-box; box-shadow: 0px 0px 8px 1px #222222; background-color: #dc5873; }
+.navbar { overflow: auto; height: 44px; width: 100%; box-sizing: border-box; box-shadow: 0px 0px 8px 1px #222222; background-color: #777777; }
 
 .current { color: #465046; }
 
@@ -22,7 +22,7 @@ body { margin: 0px; padding: 0px; font-family: postContentFont; background-color
 
 h1 { margin: auto; color: #DEE2EC; }
 
-.postTitle { font-family: postTitleFont; }
+.postTitle { font-family: postTitleFont; color: #a03a2b; }
 
 .postContent { font-family: postContentFont; }
 
@@ -30,9 +30,9 @@ h1 { margin: auto; color: #DEE2EC; }
 
 .leftspacedtitle { margin-top: 0px; margin-bottom: 10px; padding: 10px; font-family: headerFont; }
 
-.separator-basic { height: 2px; width: 100%; margin: 0px; padding: 0px; background-color: #dc5873; }
+.separator-basic { height: 2px; width: 100%; margin: 0px; padding: 0px; background-color: #777777; }
 
-a { color: #b4babd; text-decoration: none; }
+a { color: #a05b3c; text-decoration: none; }
 
 .col-1 { width: 8.33%; }
 
@@ -58,7 +58,7 @@ a { color: #b4babd; text-decoration: none; }
 
 .col-12 { width: 100%; }
 
-[class*="col-"] { float: left; padding: 15px; margin: 5px; overflow: hidden; border: 1px solid #dc5873; }
+[class*="col-"] { float: left; padding: 15px; margin: 5px; overflow: hidden; border: 1px solid #999999; }
 
 .savedextra { background-color: #63a583; }
 
