@@ -8,9 +8,9 @@
 
 * { box-sizing: border-box; }
 
-html { margin: 0; padding: 0; }
+html { margin: 0px; padding: 0px; }
 
-body { margin: 0; padding: 0; font-family: postContentFont; background-color: #e4dbd9; background-repeat: no-repeat; }
+body { margin: 0px; padding: 0px; font-family: postContentFont; background-color: #e4dbd9; background-repeat: no-repeat; }
 
 .navbar { overflow: auto; height: 44px; width: 100%; box-sizing: border-box; background-color: #63a583; box-shadow: 0px 0px 8px 1px #222222; }
 
@@ -60,10 +60,10 @@ a { color: #2f4c58; text-decoration: none; }
 
 [class*="col-"] { float: left; padding: 15px; overflow: hidden; }
 
-.savedextra { border: 2px solid #EF7C8E; }
+.savedextra { border: 2px solid #EF7C8E; background-color: #63a583; }
 
 .row::after { content: ""; clear: both; display: table; }
 
-.sidebarcat { background-color: #63a583; }
+.sidebarcat { background-color: #63a583; padding: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
