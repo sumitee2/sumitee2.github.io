@@ -66,4 +66,8 @@ a { color: #a05b3c; text-decoration: none; }
 
 .sidebarcat { background-color: #999999; padding: 15px; }
 
+.maincontent { box-shadow: 3px 6px #999999; }
+
+footer { text-align: center; margin-top: 50px; padding: 3px; background-color: #777777; color: white; }
+
 /*# sourceMappingURL=styles.css.map */
